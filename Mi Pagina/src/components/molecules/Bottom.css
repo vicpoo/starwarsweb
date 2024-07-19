@@ -1,0 +1,4 @@
+#bottom_columns {
+    display: flex;
+    flex-direction: column;
+}
