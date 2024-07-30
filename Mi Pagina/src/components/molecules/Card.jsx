@@ -1,8 +1,7 @@
 import React from 'react'
 import './Card.css'
 import Images from '../atoms/Images.jsx';
-import Paragraphs from "../atoms/Paragraphs.jsx";
-import Pulse from '../atoms/Pulse.jsx';
+import Text from '../atoms/Text'
 
 export default function Card(props) {
   return (
@@ -13,11 +12,10 @@ export default function Card(props) {
             </div>
             <div id="card_written">
               <div id="card_title">
-                <Paragraphs val={props.title}></Paragraphs>
+                <Text val={props.title}></Text>
               </div>
-                <Paragraphs val={props.text}></Paragraphs>
+                <Text val={props.text}></Text>
             </div>
-            <Pulse val={props.btn}></Pulse>
         </div>
     </>
   )

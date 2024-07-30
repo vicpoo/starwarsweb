@@ -1,6 +1,6 @@
 import React from 'react'
 import Images from '../atoms/Images'
-import Paragraphs from '../atoms/Paragraphs'
+import Text from '../atoms/Text'
 import  './Container.css'
 
 export default function Container(props) {
@@ -12,9 +12,9 @@ export default function Container(props) {
         </div>
         <div id="container_written">
           <div id="title">
-          <Paragraphs val={props.title}></Paragraphs>
+          <Text val={props.title}></Text>
           </div>
-            <Paragraphs val={props.text}></Paragraphs>
+            <Text val={props.text}></Text>
         </div>
     </div>
   )

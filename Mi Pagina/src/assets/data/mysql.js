@@ -1,52 +1,37 @@
 const mysql = {
     heroSection : [
         {
-            image : 'sweet tooyh.jpg',
-            title: "Sinopsis",
-            text: "La historia sigue a Gus, un niño híbrido mitad humano y mitad ciervo, que ha vivido en aislamiento durante diez años en un bosque remoto con su padre. Tras la muerte de su padre, Gus se aventura fuera de su hogar en busca de su madre, guiado por un mapa y su deseo de encontrar respuestas sobre su origen.En su viaje, Gus se encuentra con Jepperd, un solitario exjugador de fútbol americano que se convierte en su protector. A pesar de las reticencias iniciales, Jepperd se siente responsable de Gus y lo acompaña en su peligrosa travesía a través de un mundo hostil lleno de cazadores de híbridos y otros peligros."
+            image : 'STAR 1.jpg',
+            text: " Star Wars es una saga épica de ciencia ficción creada por George Lucas, que se desarrolla en una galaxia muy, muy lejana. La historia principal gira en torno a la lucha entre el bien, representado por los Jedi, y el mal, encarnado por los Sith y el Imperio Galáctico"
         }
     ],
 
     cards : [
         {
-            image: 'gus.jpg',
-            character: 'Gus (caramelo)',
-            text: "un niño híbrido mitad humano y mitad ciervo, que ha vivido aislado en el bosque con su padre. Tras la muerte de su padre, Gus se embarca en un peligroso viaje para encontrar a su madre y descubrir sus orígenes. ",
-            btn: 'Click para ver'
+            image: 'STAR 4.jpg',
+            text: "Episodio I: La Amenaza Fantasma  Los Jedi descubren al joven Anakin Skywalker y luchan contra el Sith Darth Maul ",
         },
         {
-            image: 'grandote.jpg',
-            character: 'Jepperd (grandote)',
-            text: 'Jepperd guía a Gus a través del peligroso mundo postapocalíptico, enfrentando amenazas como cazadores de híbridos y otros peligros.',
-            btn: 'Click para ver'
+            image: 'STARS6.jpg',
+            text: 'Episodio II: El Ataque de los Clones Anakin se convierte en aprendiz Jedi, se enamora de Padmé y comienza la guerra entre la República y los Separatistas.',
         },
         {
-            image: 'osa.jpg',
-            character: 'Becky (osa)',
-            text: 'Bear es la líder de un grupo de jóvenes conocido como "Animal Army". Este grupo se dedica a proteger a los niños híbridos de los peligros del mundo postapocalíptico, especialmente de los cazadores de híbridos. ',
-            btn: 'Click para ver'
+            image: 'STAR3.jpg',
+            text: 'Episodio III: La Venganza de los Sith Anakin se convierte en Darth Vader bajo la influencia de Palpatine, quien destruye a los Jedi. Los hijos de Anakin, Luke y Leia, son escondidos. ',
         },
         {
-            image:"wendy.jpg",
-            character:"Wendy(Pigtail)",
-            text:"Wendy es una niña híbrida, mitad humana y mitad cerdito, que vive en un mundo postapocalíptico donde los híbridos son perseguidos debido a la creencia de que están relacionados con una pandemia que devastó a la humanidad.",
-            btn:"click para ver"
-
+            image:"STAR2.jpg ",
+            text:"Episodio IV: Una Nueva Esperanza Luke Skywalker se une a Obi-Wan Kenobi, Han Solo y la princesa Leia para destruir la Estrella de la Muerte del Imperio.",
         },
         {
-            image:"mama wendy.jpg",
-            character:"Aimee",
-            text:"Aimee es una ex-terapeuta que, tras el colapso de la civilización debido a una pandemia, decide crear un santuario para los niños híbridos en un zoológico abandonado. Su motivación surge de su deseo de proporcionar un hogar seguro y amoroso para estos niños, que son perseguidos por ser considerados responsables de la pandemia.",
-            btn:"click para ver",
-
+            image:"STAR7.jpg",
+            text:"Episodio V: El Imperio Contraataca La Rebelión es derrotada, Luke entrena con Yoda y descubre que Darth Vader es su padre.",
+        },
+        {
+            image:"STAR5.jpg",
+            text:"Episodio VI: El Retorno del Jedi Luke redime a su padre Anakin, quien destruye al Emperador. La Rebelión triunfa.",
         },
     ],
-    
-    top : 'Sweet Tooth',
-    bottom : [
-       
-       
-    ]
 }
 
 export default mysql;
